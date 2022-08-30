@@ -15,9 +15,9 @@ import utils.FakeMessageGenerator;
 @Epic("User Management")
 @Feature("Registration")
 @Story("User Registration")
-public class SignUpFactoryTest extends BaseTest {
+public class SignUpTest extends BaseTest {
 
-    private static  final Logger LOGGER = LogManager.getLogger(SignUpFactoryTest.class.getName());
+    private static  final Logger LOGGER = LogManager.getLogger(SignUpTest.class.getName());
 
     @Test(priority = 2)
     @Description("User tries to input 5 digits zip code")
